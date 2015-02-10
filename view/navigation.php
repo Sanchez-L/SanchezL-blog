@@ -4,6 +4,6 @@
 
 <nav>
     <ul>
-        <li><a href="<?php echo $path . "post.php"?>">blog post form</a><li>
+        <button><a href="<?php echo $path . "post.php"?>">blog post </a></button>
     </ul>
 </nav>

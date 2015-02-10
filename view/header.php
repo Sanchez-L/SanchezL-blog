@@ -7,6 +7,10 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <title></title>
     </head>
     <body>
+      
