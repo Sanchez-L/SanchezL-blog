@@ -1,6 +1,20 @@
 body {
-    background-clip: url("https://www.youtube.com/embed/kW-5HEhkQLo");
+    background-image: url("http://www.colourvision.co.za/wp-content/uploads/2012/03/Abstract-Rainbow-Colours-Wallpapers-5.jpg");
+    
+}
+button {
+    background-color: #00FACC;
 }
 
+h1 {
+    color: white;
+}
 
- 
+label {
+    color:white;
+}
+
+h2 {
+    margin-left: 500px;
+    color:white;
+}
