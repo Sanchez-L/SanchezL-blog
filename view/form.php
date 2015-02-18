@@ -1,13 +1,13 @@
 
 <?php
-    require_once(__DIR__ . "/../model/config.php");
+require_once(__DIR__ . "/../model/config.php");
 ?>
 
-<h1>Create your post</h1>
+<h1>Create Your Post</h1>
 
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?> ">
     <div>
-        <label for="title">Title: </label>
+        <label for="title">title: </label>
         <input type="text" name="title" />
     </div>
 
@@ -15,7 +15,7 @@
         <label for="post">post: </label>
         <textarea name="post"></textarea>
     </div>
-    
+
     <div>
         <button type="submit">submit</button>
     </div>

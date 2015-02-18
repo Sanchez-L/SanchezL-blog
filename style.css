@@ -2,8 +2,9 @@ body {
     background-image: url("http://www.colourvision.co.za/wp-content/uploads/2012/03/Abstract-Rainbow-Colours-Wallpapers-5.jpg");
     
 }
+
 button {
-    background-color: #00FACC;
+    background-color: #FAF7F7;
 }
 
 h1 {
@@ -17,4 +18,5 @@ label {
 h2 {
     margin-left: 500px;
     color:white;
+    text-height:auto;
 }
