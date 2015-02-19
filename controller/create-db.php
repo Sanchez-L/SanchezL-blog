@@ -10,9 +10,23 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "PRIMARY KEY (id))");
 
 if ($query) {
-    echo "<p>successfully created table: posts</p>";
+    echo "<h3>successfully created table: posts</h3>";
 } else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
+    echo "<h3>" . $_SESSION["connection"]->error . "</h3>";
 }
-    
- 
+
+$query = $_SESSION["connection"]->query("CREATE TABLE users("
+        . "id INt(11) NOT NULL AUTO_INCREMENT,"
+        . "usename varchar(30) NOT NULL,"
+        . "email varchar(50) NOT NULL,"
+        . "password char(128) NOT NULL,"
+        . "salt char(128) NOT NULL,"
+        . "PRIMARY KEY(id))");
+
+if($query) {
+    echo "<h3>successfully created table: users </h3>";
+}
+else {
+    echo "<h3>" . $_SESSION["connection"]->error . "</h3>";
+}
+

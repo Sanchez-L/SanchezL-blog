@@ -2,9 +2,9 @@
     require_once(__DIR__ . "/../model/config.php");
 ?>
 
- <div class="jumbotron">
-                <h1>Hello Welcome To My Blog!!!</h1>
-            </div>
+<div class="jumbotron">
+    <h1>Hello Welcome To My Blog!!!</h1>
+</div>
 
 
 <nav>

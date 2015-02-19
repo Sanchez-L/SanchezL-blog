@@ -1,15 +1,21 @@
 <form>
     <div>
         <label for="email">Email:</label>
-        <inut type="text" name="email"></inut>
+        <input type="text" name="email">
     </div>
     
     <div>
         <label>Username: </label>
-        
+        <input type="text" name="username">
     </div>
     
     <div>
-        
+        <label for="password">Password:</label>
+        <input type="password" name="password">
     </div>
+    
+     <div>
+        <button type="submit">submit</button>
+    </div>
+
 </form>
