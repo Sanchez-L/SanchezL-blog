@@ -1,14 +1,15 @@
 body {
-    background-image: url("http://www.colourvision.co.za/wp-content/uploads/2012/03/Abstract-Rainbow-Colours-Wallpapers-5.jpg");
+    background-image: url("http://www.pixeden.com/media/k2/galleries/220/002-wood-melamine-subttle-pattern-background-pat.jpg");
     
 }
 
 button {
-    background-color: #FAF7F7;
+    
+    color:black;
 }
 
 h1 {
-    color: white;
+    color:white;
 }
 
 label {
@@ -20,4 +21,3 @@ h2 {
     color:white;
     text-height:auto;
 }
-

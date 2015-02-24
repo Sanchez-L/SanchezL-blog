@@ -9,6 +9,9 @@
 
 <nav>
     <ul>
-        <button><a href="<?php echo $path . "post.php"?>">blog post </a></button>
+        <button><a class="btn btn-default" href="<?php echo $path . "post.php"?>" role="button">Blog Post</a>
+    </ul>
+    <ul>
+        <button><a href="<?php echo $path . "register.php"?>">register here </a></button>
     </ul>
 </nav>
