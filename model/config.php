@@ -3,6 +3,7 @@
 require_once (__DIR__ . "/database.php");
 
 session_start();
+session_regenerate_id(true);
 
 $path = "/SanchezL-blog/";
 $host = "localHost";
