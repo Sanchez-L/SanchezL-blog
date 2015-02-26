@@ -12,7 +12,7 @@ if ($query->num_rows == 1) {
 
 
     if ($row["password"] === crypt ($password, $row["salt"])) {
-        $_SESSSION["authenticated"] = true;
+        $_SESSION["authenticated"] = true;
         echo "<p>Login successful!!!</p>";
     }
     else {

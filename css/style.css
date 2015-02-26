@@ -21,5 +21,9 @@ h2 {
     color:white;
     text-height:auto;
 }
-
+ jumbotron {
+     text-align: center;
+     background-image: url(http://phonewallpaperz.com/wp-content/uploads/2014/11/free_website_background_images.jpg); 
+     background-size:auto;
+ }
 
